@@ -1,0 +1,243 @@
+* {box-sizing: border-box}
+html body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  /* scroll-behavior: smooth; */
+  /* overflow-x: hidden */
+  /* width: 100%; */
+  overflow-x: hidden;
+}
+
+
+.navBar {
+  width: 100%;
+  color: white;
+  background-color: white;
+  /* overflow: auto; */
+  /* overflow: hidden; */
+  text-align: center;
+  /* left: 50%; */
+  height: 3rem;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  height: 4rem;
+
+
+}
+
+.navBar a
+{
+  color: white;
+  background-color: white;
+  position: relative;
+  float: center;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  top: 30%;
+
+}
+
+#topPhoto
+{
+  display: block;
+  /* float: center; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50.8rem;
+}
+#tPhoto
+{
+  width: 100%;
+  height: 45rem;
+}
+
+
+h1
+{
+  text-align: center;
+  font-family: "Roboto";
+}
+
+h1 span
+{
+  background:#fff;
+  padding:0 15px;
+}
+h1::before
+{
+    background: #333;
+    content: " ";
+    display: inline-block;
+    height: 1px;
+    margin: 10px 10px;
+    position: relative;
+    top: 50%;
+    width: 83px;
+    zoom: 1;
+}
+h1::after
+{
+  background: #333;
+  content: " ";
+  display: inline-block;
+  height: 1px;
+  margin: 10px 10px;
+  position: relative;
+  top: 50%;
+  width: 83px;
+  zoom: 1;
+}
+
+h2
+{
+  text-align: center;
+  padding: 0;
+}
+
+.box
+{
+
+}
+#gitHub
+{
+  text-align: center;
+  padding: 0;
+}
+
+.color
+{
+  background-color: #F8F8F8;
+}
+.contentBox
+{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 25%;
+  padding: 0;
+  /* align-items: center; */
+}
+
+.bg
+{
+
+}
+
+.Education, #Education
+{
+  margin-left: 4.5rem;
+}
+
+.content
+{
+  width: 40rem;
+}
+.subContentTitle
+{
+  margin-top: 6px;
+}
+
+.extra, #extra
+{
+  margin-left: 2.7rem;
+}
+
+#graham
+{
+  top: 0;
+  width: 304px;
+  height: 166px;
+  mix-blend-mode: multiply;
+}
+#carolina
+{
+  top: 0;
+  width: 230px;
+  height: 166px;
+  margin-left: 1rem;
+  mix-blend-mode: multiply;
+}
+#UNC
+{
+
+  /* left: 80%; */
+  margin-left: 2rem;
+  width: 200px;
+  height: 204px;
+
+}
+#EUSA
+{
+  margin-left: 2rem;
+  width: 200px;
+  height: 204px;
+}
+#nol
+{
+  margin-left: 2rem;
+  width: 200px;
+  height: 210px;
+}
+#Sevilla
+{
+  width: 15%;
+  height: 15%;
+  margin-left: 1.14rem;
+}
+
+#hackNC
+{
+  width: 18.3%;
+  height: 18.3%;
+}
+
+#mainPhoto
+{
+  border-radius: 50%;
+  width: 166px;   /* original is 1333 */
+  height: 250px; /* original is 2000 */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.row
+{
+  display: flex;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.column
+{
+  flex: 50%;
+
+}
+#rightColumn
+{
+  position:relative;
+  left: 25%;
+
+
+}
+
+.coursesTaken
+{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}

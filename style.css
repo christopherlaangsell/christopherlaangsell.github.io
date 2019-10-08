@@ -147,7 +147,7 @@ h2
 
 .workContent, #workContent
 {
-  margin-left: 2rem;
+  margin-left: 2.9rem;
 }
 
 .content
@@ -210,7 +210,7 @@ h2
 
 #hackNC
 {
-  width: 351px;
+  width: 275px;
   height: 153.5px;
 }
 
@@ -228,27 +228,23 @@ h2
 .row
 {
   display: flex;
+  justify-content: center;
   /* margin-left: auto; */
   /* margin-right: auto; */
 }
 
 .column
 {
-  flex: 50%;
 
 }
-#rightColumn
+#BUSI
 {
-  position:relative;
-  left: 25%;
-
-
+  /* margin-right: 6.6rem; */
 }
 
 .coursesTaken
 {
-  margin-left: 50px;
-  margin-right: 50px;
+
 }
 
 @media screen and (max-width: 860px) {

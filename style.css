@@ -247,6 +247,12 @@ h2
 
 }
 
+.courseContent
+{
+
+    width: 60rem;
+}
+
 @media screen and (max-width: 860px) {
   .navbar a {
     float: none;

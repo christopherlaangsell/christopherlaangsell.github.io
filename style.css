@@ -150,6 +150,15 @@ h2
   margin-left: 2.9rem;
 }
 
+#BullContent
+{
+  width: 30rem;
+}
+
+#BULL
+{
+text-align: center;
+}
 .content
 {
   width: 40rem;

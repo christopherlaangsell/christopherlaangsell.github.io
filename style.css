@@ -172,11 +172,18 @@ text-align: center;
 .subContentTitle
 {
   margin-top: 6px;
+  margin-bottom: 0px;
 }
 
 .extra, #extra
 {
   margin-left: 4.5rem;
+}
+.courseExtra
+{
+  margin-left: 4.5rem;
+  padding: 0px;
+  margin-top: 0px;
 }
 
 #graham

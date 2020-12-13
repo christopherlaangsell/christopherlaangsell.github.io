@@ -1,5 +1,3 @@
-import firebase from 'firebase';
-import 'firebase/storage';
 
 document.addEventListener('click', function (event) {
 

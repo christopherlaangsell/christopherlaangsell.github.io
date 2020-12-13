@@ -17,3 +17,14 @@ document.addEventListener('click', function (event) {
 	// Log the clicked element in the console
 
 }, false);
+
+
+function showMap() {
+  var storage = firebase.storage();
+  var pathReference = storage.ref('0_0.png');
+
+  var img = document.createElement("img");
+  img.src = pathReference;
+  var src = document.getElementById("mapImage");
+  src.appendChild(img);
+}

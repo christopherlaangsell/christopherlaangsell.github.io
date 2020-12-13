@@ -21,11 +21,11 @@ document.addEventListener('click', function (event) {
 
 function showMap() {
   console.log("hello");
-  // var storage = firebase.storage();
-  // var pathReference = storage.ref('0_0.png');
+  var storage = firebase.storage();
+  var pathReference = storage.ref('0_0.png');
 
-  // var img = document.createElement("img");
-  // img.src = pathReference;
-  // var src = document.getElementById("mapImage");
-  // src.appendChild(img);
+  var img = document.createElement("img");
+  img.src = pathReference;
+  var src = document.getElementById("mapImage");
+  src.appendChild(img);
 }

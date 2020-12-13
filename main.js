@@ -24,7 +24,7 @@ document.addEventListener('click', function (event) {
 }, false);
 
 
-export function showMap() {
+function showMap() {
   console.log("hello");
   var storage = firebase.storage();
   var pathReference = storage.ref('0_0.png');

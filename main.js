@@ -1,3 +1,6 @@
+import firebase from 'firebase';
+import 'firebase/storage';
+
 document.addEventListener('click', function (event) {
 
 	// If the clicked element doesn't have the right selector, bail

@@ -1,8 +1,3 @@
-import  firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
-import 'firebase/storage';
-
 document.addEventListener('click', function (event) {
 
 	// If the clicked element doesn't have the right selector, bail
@@ -24,13 +19,3 @@ document.addEventListener('click', function (event) {
 }, false);
 
 
-function showMap() {
-  console.log("hello");
-  var storage = firebase.storage();
-  var pathReference = storage.ref('0_0.png');
-
-  var img = document.createElement("img");
-  img.src = pathReference;
-  var src = document.getElementById("mapImage");
-  src.appendChild(img);
-}
